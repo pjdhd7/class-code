@@ -1,0 +1,150 @@
+//Programmer: Peter Dolan    Student ID: 12410657
+//Instructor: Price     Section: A      Date: 09/20/2014      
+//File hw4.cpp       Description: Vending Machine for Meds
+#include <iostream>
+using namespace std;
+int main ()
+{
+  //establishing of the variables
+  bool quit = false;
+  short choice = 0;
+  float Total_Cost = 0;
+  float Money_Spent = 0;
+  float Change = 0;
+  char Receive = 'y';
+  short Total_Pills = 0;
+  const short SMALL_CONT = 10;
+  const short MED_CONT = 25;
+  const short LARGE_CONT = 50;
+  const short XL_CONT = 100;
+  const short NAPROSYN_PILLS = 15;
+  const short KRYSTEXXA_PILLS = 30;
+  const short SCHRAUT_PILLS = 20;
+  const short XELJANZ_PILLS = 20;
+  const short QNASL_PILLS = 40;
+  const short GOLYTE_PILLS = 1;
+  const float NAPROSYN_COST = 10.00;
+  const float KRYSTEXXA_COST = 3.50;
+  const float SCHRAUT_COST = 4.00;
+  const float GOLYTE_COST = 14.33;
+
+  cout.setf(ios::fixed);
+  cout.setf(ios::showpoint);
+  cout.precision(2); 
+
+  //initial menu
+  do
+  {
+    cout << "       INSTY-MEDS" <<endl;
+    cout << "     --------------" <<endl;
+    cout << " 1. Naprosyn              $10.00   (pain relief)" <<endl;
+    cout << " 2. Krystexxa             $3.50    (relief from gout)" <<endl;
+    cout << " 3. Schraut               $4.00    (relief from ";
+    cout << "diarrhea)" <<endl;
+    cout << " 4. Xeljanz               $6.75    (relief from ";
+    cout << "Hippopotomonstrosesquipedaliophobia)" <<endl;
+    cout << " 5. Qnasl Dipropionate    $12.25   (for the treatment of nasally";
+    cout << " fitted Q-Tips)" << endl;
+    cout << " 6. GoLytely              $14.33   (to treat gluttony)" <<endl;
+    cout << " 7. Quit" <<endl;
+    cout << "What's your fix?   (type a number):  ";
+    cin >> choice;
+  
+    //assigning cost and pill numbers, depending on what the vendee wanted 
+    switch (choice)
+    {
+      case 1:
+        Total_Cost = NAPROSYN_COST;
+        Total_Pills = NAPROSYN_PILLS;
+        break;
+      case 2:
+        Total_Cost = KRYSTEXXA_COST;
+        Total_Pills = KRYSTEXXA_PILLS;
+        break;
+      case 3:
+        Total_Cost = SCHRAUT_COST;
+        Total_Pills = SCHRAUT_PILLS;
+        break;
+      case 4:
+        Total_Cost = GOLYTE_COST;
+        Total_Pills = XELJANZ_PILLS + QNASL_PILLS + GOLYTE_PILLS;
+        break;
+      case 5:
+        Total_Cost = GOLYTE_COST;
+        Total_Pills = QNASL_PILLS + GOLYTE_PILLS;
+        break;
+      case 6:
+        Total_Cost = GOLYTE_COST;
+        Total_Pills = GOLYTE_PILLS;
+        break;
+      case 7:
+        quit = true;
+        break;
+      default:
+        cout <<endl << "THAT IS NOT AN OPTION, PLEASE TRY AGAIN" <<endl <<endl;
+    } 
+
+    //tending money 
+    if (choice >= 1 && choice <= 6)
+    {
+      do
+      {
+        cout << "The cost of your purchase is $" << Total_Cost << endl;
+        cout  << "Please insert money to pay for the pills:  ";
+        cin >> Money_Spent;
+      
+        //if statement to check money spent
+        if (Money_Spent >= Total_Cost)
+        {
+          Change = Money_Spent - Total_Cost;
+          cout << "Thank you! Your $" << Change << " in change is being ";
+          cout << "vended from the machine." << endl;
+        }
+        else
+        {
+          cout << endl;
+          cout << "Oh no! It appears that not enough money was inserted! ";
+          cout << "Please try again." << endl <<endl;
+        } 
+      } while (Money_Spent < Total_Cost);
+    }
+    //dispensing of pills
+    if (Total_Pills > 0 && Total_Pills <= SMALL_CONT && !quit)
+    {
+      cout << "Please have a 10-count pill container ready to receive your ";
+      cout << Total_Pills << " pills." <<endl;
+      cout << " Type y to receive them:  ";
+      cin >> Receive;
+    }
+    else if (Total_Pills > SMALL_CONT && Total_Pills <= MED_CONT && !quit)
+    {
+      cout << "Please have a 25-count pill container ready to receive your ";
+      cout << Total_Pills << " pills. " <<endl;
+      cout << "Type y to receive them:  ";
+      cin >> Receive;
+    } 
+    else if (Total_Pills > MED_CONT && Total_Pills <= LARGE_CONT && !quit)
+    {
+      cout << "Please have a 50-count pill container ready to receive your ";
+      cout << Total_Pills << " pills." <<endl;
+      cout << "Type y to receive them:  ";
+      cin >> Receive;
+    }
+    else if (Total_Pills > LARGE_CONT && Total_Pills <= XL_CONT && !quit)
+    {
+      cout << "Please have a 100-count pill container ready to receive your ";
+      cout << Total_Pills << " pills." <<endl;
+      cout << "Type y to receive them:  ";
+      cin >> Receive;
+    }
+    
+    //Exit statement
+    if (quit == true)
+    {
+    cout << "You have chosen to quit the INSTY-MEDS machine." <<endl;
+    }
+  } while (!quit);
+  
+  cout << "Thank you for using the INSTY-MEDS machine and remember: " <<endl;
+  cout << "Dr. Eloe's prescription is take more pills!" << endl;
+}

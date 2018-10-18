@@ -1,0 +1,308 @@
+
+--------------------Initial Statuses------------------
+Dr. Price has $0 and eaten 0 oz of Schraut.
+Machine:  X-Rayer cost per use: $550, Num uses: 0 Ounces of Schraut!: 10
+Machine:  Lobotomizer cost per use: 200Num uses: 0 Ounces of Schraut!: 10
+Machine:  Organ Donator cost per use: 100 Num uses: 0 Ounces of Schraut!: 10
+Machine:  Pharmacy cost per use: 150 Num Uses: 0 Pills remaining: 81 Ounces of Schraut!: 10
+Machine:  Placaeboizer cost per use: $500, Num uses: 0 Ounces of Schraut!: 10
+Machine:  Liposuctionizer cost per use: $750, Num uses: 0 Ounces of Schraut!: 10
+Name: Janet, Status: alive, Condition: 41, Assets: $2480
+Name: Margaret, Status: alive, Condition: 35, Assets: $1776
+Name: Jodie, Status: alive, Condition: 76, Assets: $1510
+Name: Clark, Status: alive, Condition: 22, Assets: $1587
+Name: Bruce, Status: alive, Condition: 85, Assets: $3375
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+Name: Jeremy, Status: alive, Condition: 62, Assets: $3391
+Name: Janet, Status: alive, Condition: 58, Assets: $3741
+Name: Peter, Status: alive, Condition: 12, Assets: $2362
+Name: Joseph, Status: alive, Condition: 76, Assets: $1850
+
+-------------------Commencing Testing-----------------
+
+--------------------Patient #1 is now being tested------------------------
+
+----------Patient #1 is attempting to enter the x-ray room. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 41, Assets: $1930
+
+Dr. Price has $275 and eaten 0 oz of Schraut.
+----------Patient #1 is attempting to enter the lobotomizer room. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 44, Assets: $1730
+
+Dr. Price has $375 and eaten 0 oz of Schraut.
+----------Patient #1 is attempting to enter the organ donor room. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 43, Assets: $1630
+
+Dr. Price has $425 and eaten 0 oz of Schraut.
+----------Patient #1 is attempting to enterthe pharmacy. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 43, Assets: $1480
+
+Dr. Price has $500 and eaten 0 oz of Schraut.
+----------Patient #1 is attempting to enter the placaeboizer room. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 43, Assets: $980
+
+Dr. Price has $750 and eaten 0 oz of Schraut.
+----------Patient #1 is attempting to enter the liposuctionizer room. ------------
+Num Apps: 1 Name: Janet, Status: dead, Condition: 0, Assets: $230
+Dr. Price has $1125 and eaten 0 oz of Schraut.
+--------------------Patient #2 is now being tested------------------------
+
+----------Patient #2 is attempting to enter the x-ray room. ------------
+Num Apps: 1 Name: Margaret, Status: alive, Condition: 35, Assets: $1226
+
+Dr. Price has $1400 and eaten 0 oz of Schraut.
+----------Patient #2 is attempting to enter the lobotomizer room. ------------
+Num Apps: 1 Name: Margaret, Status: alive, Condition: 38, Assets: $1026
+
+Dr. Price has $1500 and eaten 0 oz of Schraut.
+----------Patient #2 is attempting to enter the organ donor room. ------------
+Num Apps: 1 Name: Margaret, Status: alive, Condition: 37, Assets: $926
+
+Dr. Price has $1550 and eaten 0 oz of Schraut.
+----------Patient #2 is attempting to enterthe pharmacy. ------------
+Num Apps: 1 Name: Margaret, Status: alive, Condition: 37, Assets: $776
+
+Dr. Price has $1625 and eaten 0 oz of Schraut.
+----------Patient #2 is attempting to enter the placaeboizer room. ------------
+Num Apps: 1 Name: Margaret, Status: alive, Condition: 37, Assets: $276
+
+Dr. Price has $1875 and eaten 0 oz of Schraut.
+----------Patient #2 is attempting to enter the liposuctionizer room. ------------
+
+Patient #2can't enter the liposuctionizer room because he/she is unable to pay.
+Name: Margaret, Status: alive, Condition: 37, Assets: $276
+
+Dr. Price has $1875 and eaten 0 oz of Schraut.
+--------------------Patient #3 is now being tested------------------------
+
+----------Patient #3 is attempting to enter the x-ray room. ------------
+Num Apps: 1 Name: Jodie, Status: alive, Condition: 76, Assets: $960
+
+Dr. Price has $2150 and eaten 0 oz of Schraut.
+----------Patient #3 is attempting to enter the lobotomizer room. ------------
+Num Apps: 1 Name: JodieClark, Status: alive, Condition: 79, Assets: $760
+
+Dr. Price has $2250 and eaten 0 oz of Schraut.
+----------Patient #3 is attempting to enter the organ donor room. ------------
+Num Apps: 1 Name: JodieClark, Status: alive, Condition: 78, Assets: $660
+
+Dr. Price has $2300 and eaten 0 oz of Schraut.
+----------Patient #3 is attempting to enterthe pharmacy. ------------
+Num Apps: 1 Name: JodieClark, Status: alive, Condition: 78, Assets: $510
+
+Dr. Price has $2375 and eaten 0 oz of Schraut.
+----------Patient #3 is attempting to enter the placaeboizer room. ------------
+Num Apps: 1 Name: JodieClark, Status: alive, Condition: 78, Assets: $10
+
+Dr. Price has $2625 and eaten 0 oz of Schraut.
+----------Patient #3 is attempting to enter the liposuctionizer room. ------------
+
+Patient #3can't enter the liposuctionizer room because he/she is unable to pay.
+Name: JodieClark, Status: alive, Condition: 78, Assets: $10
+
+Dr. Price has $2625 and eaten 0 oz of Schraut.
+--------------------Patient #4 is now being tested------------------------
+
+----------Patient #4 is attempting to enter the x-ray room. ------------
+Num Apps: 1 Name: Clark, Status: alive, Condition: 22, Assets: $1037
+
+Dr. Price has $2900 and eaten 0 oz of Schraut.
+----------Patient #4 is attempting to enter the lobotomizer room. ------------
+Num Apps: 1 Name: Clark, Status: alive, Condition: 25, Assets: $837
+
+Dr. Price has $3000 and eaten 0 oz of Schraut.
+----------Patient #4 is attempting to enter the organ donor room. ------------
+Num Apps: 1 Name: Clark, Status: alive, Condition: 25, Assets: $737
+
+Dr. Price has $3050 and eaten 0 oz of Schraut.
+----------Patient #4 is attempting to enterthe pharmacy. ------------
+Num Apps: 1 Name: Clark, Status: alive, Condition: 35, Assets: $587
+
+Dr. Price has $3125 and eaten 0 oz of Schraut.
+----------Patient #4 is attempting to enter the placaeboizer room. ------------
+Num Apps: 1 Name: Clark, Status: alive, Condition: 35, Assets: $87
+
+Dr. Price has $3375 and eaten 0 oz of Schraut.
+----------Patient #4 is attempting to enter the liposuctionizer room. ------------
+
+Patient #4can't enter the liposuctionizer room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 35, Assets: $87
+
+Dr. Price has $3375 and eaten 0 oz of Schraut.
+--------------------Patient #5 is now being tested------------------------
+
+----------Patient #5 is attempting to enter the x-ray room. ------------
+Num Apps: -10 Name: Bruce, Status: alive, Condition: 85, Assets: $2825
+
+Dr. Price has $3650 and eaten 0 oz of Schraut.
+----------Patient #5 is attempting to enter the lobotomizer room. ------------
+Num Apps: -10 Name: Bruce, Status: alive, Condition: 85, Assets: $2625
+
+Dr. Price has $3750 and eaten 0 oz of Schraut.
+----------Patient #5 is attempting to enter the organ donor room. ------------
+Num Apps: -10 Name: Bruce, Status: alive, Condition: 85, Assets: $2525
+
+Dr. Price has $3800 and eaten 0 oz of Schraut.
+----------Patient #5 is attempting to enterthe pharmacy. ------------
+Num Apps: -10 Name: Bruce, Status: alive, Condition: 85, Assets: $2375
+
+Dr. Price has $3875 and eaten 0 oz of Schraut.
+----------Patient #5 is attempting to enter the placaeboizer room. ------------
+Num Apps: -10 Name: Bruce, Status: alive, Condition: 85, Assets: $1875
+
+Dr. Price has $4125 and eaten 0 oz of Schraut.
+----------Patient #5 is attempting to enter the liposuctionizer room. ------------
+Num Apps: 1 Name: Bruce, Status: alive, Condition: 85, Assets: $1125
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+--------------------Patient #6 is now being tested------------------------
+
+----------Patient #6 is attempting to enter the x-ray room. ------------
+
+Patient #6is unable to enter the x_ray room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+----------Patient #6 is attempting to enter the lobotomizer room. ------------
+
+Patient #6is unable to enter lobotomizer room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+----------Patient #6 is attempting to enter the organ donor room. ------------
+
+Patient #6is unable to enter organ donor room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+----------Patient #6 is attempting to enterthe pharmacy. ------------
+
+Patient #6is unable to enter the pharmacy because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+----------Patient #6 is attempting to enter the placaeboizer room. ------------
+
+Patient #6is unable to enter placaeboizer room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+----------Patient #6 is attempting to enter the liposuctionizer room. ------------
+
+Patient #6can't enter the liposuctionizer room because he/she is unable to pay.
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+
+Dr. Price has $4500 and eaten 0 oz of Schraut.
+--------------------Patient #7 is now being tested------------------------
+
+----------Patient #7 is attempting to enter the x-ray room. ------------
+Num Apps: -10 Name: Jeremy, Status: alive, Condition: 62, Assets: $2841
+
+Dr. Price has $4775 and eaten 0 oz of Schraut.
+----------Patient #7 is attempting to enter the lobotomizer room. ------------
+Num Apps: -10 Name: Jeremy, Status: alive, Condition: 62, Assets: $2641
+
+Dr. Price has $4875 and eaten 0 oz of Schraut.
+----------Patient #7 is attempting to enter the organ donor room. ------------
+Num Apps: -10 Name: Jeremy, Status: alive, Condition: 62, Assets: $2541
+
+Dr. Price has $4925 and eaten 0 oz of Schraut.
+----------Patient #7 is attempting to enterthe pharmacy. ------------
+Num Apps: -10 Name: Jeremy, Status: alive, Condition: 62, Assets: $2391
+
+Dr. Price has $5000 and eaten 0 oz of Schraut.
+----------Patient #7 is attempting to enter the placaeboizer room. ------------
+Num Apps: -10 Name: Jeremy, Status: alive, Condition: 62, Assets: $1891
+
+Dr. Price has $5250 and eaten 0 oz of Schraut.
+----------Patient #7 is attempting to enter the liposuctionizer room. ------------
+Num Apps: 1 Name: Jeremy, Status: alive, Condition: 62, Assets: $1141
+Dr. Price has $5625 and eaten 0 oz of Schraut.
+--------------------Patient #8 is now being tested------------------------
+
+----------Patient #8 is attempting to enter the x-ray room. ------------
+Num Apps: -10 Name: Janet, Status: alive, Condition: 58, Assets: $3191
+
+Dr. Price has $5900 and eaten 0 oz of Schraut.
+----------Patient #8 is attempting to enter the lobotomizer room. ------------
+Num Apps: -10 Name: Janet, Status: alive, Condition: 58, Assets: $2991
+
+Dr. Price has $6000 and eaten 0 oz of Schraut.
+----------Patient #8 is attempting to enter the organ donor room. ------------
+Num Apps: -10 Name: Janet, Status: alive, Condition: 58, Assets: $2891
+
+Dr. Price has $6050 and eaten 0 oz of Schraut.
+----------Patient #8 is attempting to enterthe pharmacy. ------------
+Num Apps: -10 Name: Janet, Status: alive, Condition: 58, Assets: $2741
+
+Dr. Price has $6125 and eaten 0 oz of Schraut.
+----------Patient #8 is attempting to enter the placaeboizer room. ------------
+Num Apps: -10 Name: Janet, Status: alive, Condition: 58, Assets: $2241
+
+Dr. Price has $6375 and eaten 0 oz of Schraut.
+----------Patient #8 is attempting to enter the liposuctionizer room. ------------
+Num Apps: 1 Name: Janet, Status: alive, Condition: 58, Assets: $1491
+Dr. Price has $6750 and eaten 0 oz of Schraut.
+--------------------Patient #9 is now being tested------------------------
+
+----------Patient #9 is attempting to enter the x-ray room. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $1812
+
+Dr. Price has $7025 and eaten 0 oz of Schraut.
+----------Patient #9 is attempting to enter the lobotomizer room. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $1612
+
+Dr. Price has $7125 and eaten 0 oz of Schraut.
+----------Patient #9 is attempting to enter the organ donor room. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $1512
+
+Dr. Price has $7175 and eaten 0 oz of Schraut.
+----------Patient #9 is attempting to enterthe pharmacy. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $1362
+
+Dr. Price has $7250 and eaten 0 oz of Schraut.
+----------Patient #9 is attempting to enter the placaeboizer room. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $862
+
+Dr. Price has $7500 and eaten 0 oz of Schraut.
+----------Patient #9 is attempting to enter the liposuctionizer room. ------------
+Num Apps: -10 Name: Peter, Status: alive, Condition: 12, Assets: $112
+Dr. Price has $7875 and eaten 0 oz of Schraut.
+--------------------Patient #10 is now being tested------------------------
+
+----------Patient #10 is attempting to enter the x-ray room. ------------
+Num Apps: -10 Name: Joseph, Status: alive, Condition: 76, Assets: $1300
+
+Dr. Price has $8150 and eaten 0 oz of Schraut.
+----------Patient #10 is attempting to enter the lobotomizer room. ------------
+Num Apps: -10 Name: Joseph, Status: alive, Condition: 76, Assets: $1100
+
+Dr. Price has $8250 and eaten 0 oz of Schraut.
+----------Patient #10 is attempting to enter the organ donor room. ------------
+Num Apps: -10 Name: Joseph, Status: alive, Condition: 76, Assets: $1000
+
+Dr. Price has $8300 and eaten 0 oz of Schraut.
+----------Patient #10 is attempting to enterthe pharmacy. ------------
+Num Apps: -10 Name: Joseph, Status: alive, Condition: 76, Assets: $850
+
+Dr. Price has $8375 and eaten 0 oz of Schraut.
+----------Patient #10 is attempting to enter the placaeboizer room. ------------
+Num Apps: -10 Name: Joseph, Status: alive, Condition: 76, Assets: $350
+
+Dr. Price has $8625 and eaten 0 oz of Schraut.
+----------Patient #10 is attempting to enter the liposuctionizer room. ------------
+
+Patient #10can't enter the liposuctionizer room because he/she is unable to pay.
+Name: Joseph, Status: alive, Condition: 76, Assets: $350
+
+Dr. Price has $8625 and eaten 0 oz of Schraut.
+----------------------Final Statuses--------------------
+Dr. Price has $8625 and eaten 0 oz of Schraut.Machine:  X-Rayer cost per use: $550, Num uses: 4 Ounces of Schraut!: 0Machine:  Lobotomizer cost per use: 200Num uses: 4 Ounces of Schraut!: 0Machine:  Organ Donator cost per use: 100 Num uses: 4 Ounces of Schraut!: 0Machine:  Pharmacy cost per use: 150 Num Uses: 4 Pills remaining: 81 Ounces of Schraut!: 0Machine:  Placaeboizer cost per use: $500, Num uses: 4 Ounces of Schraut!: 0Machine:  Liposuctionizer cost per use: $750, Num uses: 4 Ounces of Schraut!: 0Name: Janet, Status: dead, Condition: 0, Assets: $230
+Name: Margaret, Status: alive, Condition: 37, Assets: $276
+Name: JodieClark, Status: alive, Condition: 78, Assets: $10
+Name: Clark, Status: alive, Condition: 35, Assets: $87
+Name: Bruce, Status: alive, Condition: 85, Assets: $1125
+Name: Clark, Status: alive, Condition: 26, Assets: $45
+Name: Jeremy, Status: alive, Condition: 62, Assets: $1141
+Name: Janet, Status: alive, Condition: 58, Assets: $1491
+Name: Peter, Status: alive, Condition: 12, Assets: $112
+Name: Joseph, Status: alive, Condition: 76, Assets: $350

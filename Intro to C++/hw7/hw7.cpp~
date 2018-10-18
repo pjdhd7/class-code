@@ -1,0 +1,39 @@
+//Programmer: Peter Dolan     ID: 12410657
+//Instructor: Price     Section: A      Date: 10/23/2014
+//File: hw7.cpp      Description: Zombism calculator
+#include "hw7.h"
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+using namespace std;
+
+int main()
+{
+  srand(time(NULL));
+
+  person data_set[5000];
+  int people;
+  float brains, odor, gait, physical, genetic, zombie;
+  greeting();
+  read_in(people);
+  brains_research(data_set, brains, people);
+  odor_research(data_set, odor, people);
+  gait_research(data_set, gait, people);
+  gene_research(data_set, people);
+for(int i=0; i<people; i++)
+{
+  cout<<"\n\nwants brains "<<(data_set[i].m_brains ? "true" : "false")<<endl 
+      <<"gait is "<<data_set[i].m_gait<<endl
+      <<"odor is "<<data_set[i].m_odor<<endl
+      <<"gene is ";
+  for(int j=0; j<128; j++)
+    cout<<data_set[i].m_genes[j];
+  cout<<endl<<endl;
+}  
+cout<<"hi"<<endl;
+  isZombie(data_set, physical, genetic, zombie, people);
+//cout<<"hi"<<endl;
+  results(gait, odor, brains, physical, genetic, zombie, people);
+  signoff();
+  return 0;
+}

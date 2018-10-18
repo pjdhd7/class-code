@@ -1,0 +1,48 @@
+
+*** These modified files were found in JOE when it aborted on Mon Oct 13 16:12:19 2014
+*** JOE was aborted by UNIX signal 1
+
+*** File 'hw6.cpp'
+//Programmer: Peter Dolan      Date: 10/11/2014
+//Instructor: Price       Section: A        Date: 10/11/2014
+//File: hw6.cpp       Description: Main function
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  proteins levels;
+  string name;
+  int seed;
+  char yes_or_no;
+  bool quit = false;
+  
+  cout <<"~*~WELCOME~*~"<<endl
+  do
+  {
+    getName(name);
+    tone1(levels);
+    tone2(levels);
+    tone3(levels);
+    prognosis(levels);
+    cout <<"Would you like to test another patient(y/n):  ";
+    cin >> yes_or_no;
+    if(yes_or_no = 'n')
+      quit = true;
+  }while(!quit);
+  
+  return 0;
+}
+*** File '(Unnamed)'
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+randomizerfncts.cpp
+hw6.cpp
