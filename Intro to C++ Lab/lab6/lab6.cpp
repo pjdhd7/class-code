@@ -1,0 +1,84 @@
+//Programmer: Peter Dolan     Student ID: 12410657
+//Instructor: Armita     Section: C    Date: 09/30/2014
+//File: lab6.cpp      Description: Arithmetic Mean Machine
+#include <iostream>
+using namespace std;
+
+void greet();
+float readNumber();
+float arithmeticMean(float number1, float number2, float number3);
+float harmonicMean(float number1, float number2, float number3);
+void printResult(float harmonic, float arithmetic);
+void signoff();
+
+int main()
+{
+  float number1;
+  float number2;
+  float number3;
+  float arithmetic;
+  float harmonic;
+  
+  greet();
+  number1 = readNumber();
+  number2 = readNumber();
+  number3 = readNumber();
+  arithmetic = arithmeticMean(number1, number2, number3);
+  harmonic = harmonicMean (number1, number2, number3);
+  printResult(harmonic, arithmetic);
+  signoff();
+  
+  return 0; 
+}
+
+void greet() //Greeting Message upon initial start
+{
+  cout <<"~*~Welcome to Arithmetic Meand and Harmonic Mean Calculator~*~"<<endl;
+  return;
+}
+
+float readNumber() //Reading of the numbers
+{
+  float Num_Input;
+  do
+  {
+    cout <<"Enter a positive number:   ";
+    cin >> Num_Input;
+    if (Num_Input <= 0)
+      cout<< "Invalid Number! Try Again"<<endl;
+  }while(Num_Input <= 0);
+  return Num_Input;
+}  
+
+float arithmeticMean(float number1, float number2, float number3)
+{
+  float arithmetic;
+  
+  arithmetic = (number1 + number2 + number3) / 3;
+  
+  return arithmetic;
+}
+
+float harmonicMean(float number1, float number2, float number3)
+{
+  float harmonic;
+  
+  harmonic = 3 / ((1 / number1) + (1 / number2) + (1 / number3));
+  
+  return harmonic;
+}
+
+void printResult(float harmonic, float arithmetic)
+{
+  cout<< "The Arithmetic Mean is " <<arithmetic<<endl;
+  cout<< "The Harmonic Mean is " <<harmonic<<endl;
+  
+  return;
+}
+
+void signoff()
+{
+  cout<< "Have a Good Day!"<<endl;
+  
+  return;
+}

@@ -1,0 +1,31 @@
+//Programmer: Peter Dolan       ID: 12410657
+//Instructor: Armita     Section: C     Date: 10/21/2014
+//File: lab9.cpp         Description:
+#include "lab9.h"
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+  student students[3];
+  int size = 3, course_number, element;
+  
+  read_in(students, size);
+  for(int i = 0; i < 3; i++)
+  {
+    course_number = i;
+    
+    element = max_index(students, size, course_number); 
+    cout<<students[element].name<<" gained the maximum grade in course #"
+    <<course_number<<", which is: "<<students[element].grades[course_number] + 1
+    <<endl;
+    
+    element = min_index(students, size, course_number);
+    cout<<students[element].name<<" gained the minimum grade in course #"
+    <<course_number<<", which is "<<students[element].grades[course_number] + 1
+    <<endl;
+  }
+  
+  return 0;
+}

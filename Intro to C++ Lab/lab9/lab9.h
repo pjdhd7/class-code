@@ -1,0 +1,32 @@
+//Programmer: Peter Dolan       ID: 12410657
+//Instructor: Armita     Section: C     Date: 10/21/2014
+//File: lab9.h         Description:
+#ifndef LAB9_H
+#define LAB9_H
+#include <iostream>
+#include <string>
+using namespace std;
+
+//Defining Struct
+struct student
+{
+  string name;
+  int grades[3];
+};
+
+//Description: Gathers the names and grades of the students
+//Pre-Condition: A student struct
+//Post-Condition: Alters the student struct
+void read_in(student students[], const int size);
+
+//Description: Determines which grade is the highest in a class
+//Pre-Condition: A student struct
+//Post-Condition: Returns the highest value of a course number
+int max_index(student students[], const int size, const int course_number);
+
+//Description: Determines which grade is the lowest in a class
+//Pre-Condition: A student struct
+//Post-Condition: Returns the lowest value of a course number
+int min_index(student students[], const int size, const int course_number);
+
+#endif

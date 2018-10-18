@@ -1,0 +1,110 @@
+
+*** These modified files were found in JOE when it aborted on Tue Sep 30 18:43:57 2014
+*** JOE was aborted by UNIX signal 1
+
+*** File 'lab6.cpp'
+//Programmer: Peter Dolan     Student ID: 12410657
+//Instructor: Armita     Section: C    Date: 09/30/2014
+//File: lab6.cpp      Description: Arithmetic Mean Machine
+#include <iostream>
+using namespace std;
+
+void greet();
+float readNumber();
+float arithmeticMean(float number1, float number2, float number3);
+float harmonicMean(float number1, float number2, float number3);
+void printResult(float harmonic, float arithmetic);
+void signoff();
+
+//The main function, bringing all other functions together
+int main()
+{
+  float number1;
+  float number2;
+  float number3;
+  float arithmetic;
+  float harmonic;
+  
+  greet();
+  number1 = readNumber();
+  number2 = readNumber();
+  number3 = readNumber();
+  arithmetic = arithmeticMean(number1, number2, number3);
+  harmonic = harmonicMean (number1, number2, number3);
+  printResult(harmonic, arithmetic);
+  signoff();
+  
+  return 0; 
+}
+
+//Greeting Message upon initial start
+void greet()
+{
+  cout <<"~*~Welcome to Arithmetic Meand and Harmonic Mean Calculator~*~"<<endl;
+  return;
+}
+
+
+//Reading of the numbers
+float readNumber()
+{
+  float Num_Input;
+  do
+  {
+    cout <<"Enter a positive number:   ";
+    cin >> Num_Input;
+    if (Num_Input <= 0)
+      cout<< "Invalid Number! Try Again"<<endl;
+  }while(Num_Input > 0);
+  return Num_Input;
+}  
+
+//Calculating the Arithmetic Mean
+float arithmeticMean(float number1, float number2, float number3) 
+{
+  float arithmetic;
+  
+  ArithMean = (number1 + number2 + number3) / 3;
+  
+  return arithmetic;
+}
+
+//Calculating the Harmonic Mean
+float harmonicMean(float number1, float number2, float number3)
+{
+  float harmonic;
+  
+  HarmMean = 3 / ((1 / number1) + (1 / number2) + (1 / number3));
+  
+  return harmonic;
+}
+
+//Outputting the Results
+void printResult(float harmonic, float arithmetic)
+{
+  cout<< "The Arithmetic Mean is " <<arithmetic<<endl;
+  cout<< "The Harmonic Mean is " <<harmonic<<endl;
+  
+  return;
+}
+
+//Signing Off
+void signoff()
+{
+  cout<< "Have a Good Day!"<<endl;
+  
+  return;
+}
+
+*** File '(Unnamed)'
+lab5.cpp
+lab5.cpp
+lab5.cpp
+lab5.cpp
+lab5.cpp
+lab5.cpp
+lab5.cpp
+lab6
+lab6.cpp
+lab6.cpp
+lab6.cpp
