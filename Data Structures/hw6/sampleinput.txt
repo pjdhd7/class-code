@@ -1,0 +1,7 @@
+6
+1 Galaxian 5
+4 Princess-II 2
+5 Tritanic 13  
+8 Regulus 8
+12 Nostromo 5
+20 SpaceFish 8

@@ -1,0 +1,15 @@
+At time 1 Galaxian joins port A.
+At time 4 Princess-II joins port B.
+At time 5 Tritanic joins port C.
+At time 8 Regulus joins port A.
+At time 10 Princess-II is done fueling.
+At time 12 Nostromo joins port B.
+At time 16 Galaxian is done fueling.
+At time 20 SpaceFish joins port A.
+At time 27 Nostromo is done fueling.
+At time 40 Regulus is done fueling.
+At time 44 Tritanic is done fueling.
+At time 64 SpaceFish is done fueling.
+
+Longest wait: SpaceFish, 44 mins.
+Shortest wait: Princess-II, 6 mins.
